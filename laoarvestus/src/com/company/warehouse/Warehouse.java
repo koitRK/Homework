@@ -60,7 +60,7 @@ public class Warehouse {
     public void writeCSV() throws IOException {
         List<List<String>> rows = getContent();
 
-        FileWriter csvWriter = new FileWriter("new.csv");
+        FileWriter csvWriter = new FileWriter("products.csv");
         csvWriter.append("Shelf");
         csvWriter.append(",");
         csvWriter.append("Product Name");
